@@ -767,7 +767,6 @@ The web application is not working as intended. The web application reports that
 
 ## Question #: 17
 
-**Question:**  
 A company wants to deploy a new public web application on AWS. The application includes a web server tier that uses Amazon EC2 instances. The application also includes a database tier that uses an Amazon RDS for MySQL DB instance.
 
 The application must be secure and accessible for global customers that have dynamic IP addresses.
