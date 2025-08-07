@@ -798,7 +798,7 @@ The application must be secure and accessible for global customers that have dyn
 **Why other options are incorrect:**
 
 - **B** and **C**: Relying on customers’ IP addresses is not viable for global users with dynamic IPs.
-- **D**: Allowing port 3306 access from `0.0.0.0/0` exposes the database to the public internet, which is a serious security risk.
+
 
 ---
 
