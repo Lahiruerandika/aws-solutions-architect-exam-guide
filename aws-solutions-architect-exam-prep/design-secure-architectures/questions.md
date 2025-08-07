@@ -801,8 +801,3 @@ The application must be secure and accessible for global customers that have dyn
 - **D**: Allowing port 3306 access from `0.0.0.0/0` exposes the database to the public internet, which is a serious security risk.
 
 ---
-
-### 🔗 Reference:
-- [Security Groups for Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
-- [Amazon RDS Security Best Pract]()
-- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102160-exam-aws-certified-solutions-architect-associate-saa-c03/)
