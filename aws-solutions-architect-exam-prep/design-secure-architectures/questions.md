@@ -783,27 +783,3 @@ The application must be secure and accessible for global customers that have dyn
 <details>
 <summary><strong>✅ Check Answer</strong></summary>
 
----
-
-### ✅ Correct Answer:  
-**A. Configure the security group for the web servers to allow inbound traffic on port 443 from 0.0.0.0/0. Configure the security group for the DB instance to allow inbound traffic on port 3306 from the security group of the web servers.**
-
----
-
-### 📘 Explanation:
-
-- The application is **publicly accessible**, so the web server's security group must allow inbound HTTPS (port 443) from **anywhere (0.0.0.0/0)** to support **global customers with dynamic IPs**.
-- The **database (Amazon RDS)** must **not** be accessible from the internet. To maintain **security and principle of least privilege**, it should only allow **port 3306** (MySQL) traffic **from the web servers' security group**, not from any external IPs.
-
-**Why other options are incorrect:**
-
-- **B** and **C**: Relying on customers’ IP addresses is not viable for global users with dynamic IPs.
-- **D**: Allowing port 3306 access from `0.0.0.0/0` exposes the database to the public internet, which is a serious security risk.
-
----
-
-### 🔗 Reference:
-- [Security Groups for Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
-- [Amazon RDS Security Best Pract]()
-- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102160-exam-aws-certified-solutions-architect-associate-saa-c03/)
-
