@@ -802,3 +802,6 @@ The application must be secure and accessible for global customers that have dyn
 
 ---
 
+### 🔗 Reference:
+- [Security Groups for Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
+- [Amazon RDS Security Best Pract]()
