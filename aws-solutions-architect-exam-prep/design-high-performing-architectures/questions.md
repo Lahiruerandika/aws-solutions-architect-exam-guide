@@ -647,9 +647,3 @@ A database administrator analyzes the logs in Amazon CloudWatch Logs and discove
 - [gp3 Performance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp3-performance)
 
 </details>
-
----
-
-### 🧠 Topic:  
-**Design High-Performance and Scalable Architectures**  
-Subdomain: Select high-performing and scalable storage solutions
