@@ -603,3 +603,42 @@ A company has a large dataset for its online advertising business stored in an A
 - [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102157-exam-aws-certified-solutions-architect-associate-saa-c03/)
 </details>
 
+## Question #: 14
+
+**Question:**   
+A company is running a multi-tier ecommerce web application in the AWS Cloud. The application runs on Amazon EC2 instances with an Amazon RDS for MySQL Multi-AZ DB instance. Amazon RDS is configured with the latest generation DB instance with 2,000 GB of storage in a General Purpose SSD (gp3) Amazon Elastic Block Store (Amazon EBS) volume. The database performance affects the application during periods of high demand.
+
+A database administrator analyzes the logs in Amazon CloudWatch Logs and discovers that the application performance always degrades when the number of read and write IOPS is higher than 20,000.
+
+**What should a solutions architect do to improve the application performance?**
+
+**A.** Replace the volume with a magnetic volume.  
+**B.** Increase the number of IOPS on the gp3 volume.  
+**C.** Replace the volume with a Provisioned IOPS SSD (io2) volume.  
+**D.** Replace the 2,000 GB gp3 volume with two 1,000 GB gp3 volumes.  
+
+---
+
+<details>
+<summary><strong>✅ Check Answer</strong></summary>
+
+---
+
+### ✅ Correct Answer:  
+**B. Increase the number of IOPS on the gp3 volume.**
+
+---
+
+### 📘 Explanation:
+
+- **gp3 volumes** allow you to **independently provision IOPS** and throughput **separate from storage size**.
+- The current gp3 setup hits a performance bottleneck at **20,000 IOPS**, so **increasing provisioned IOPS** will directly address the issue without replacing the volume type.
+- This is **cost-effective** compared to switching to **io2**, unless ultra-low latency or >256,000 IOPS is needed.
+
+**Why other options are incorrect:**
+- **A:** Magnetic volumes have much lower performance (max ~250 IOPS) and are unsuitable for production databases.
+- **C:** io2 is optimized for sustained IOPS and durability but is more expensive. It’s not necessary here unless the gp3 volume’s maximum IOPS limit is insufficient after scaling.
+- **D:** Splitting into two volumes doesn’t improve RDS performance because RDS manages storage as a single volume; you cannot stripe them for performance gains.
+
+---
+
