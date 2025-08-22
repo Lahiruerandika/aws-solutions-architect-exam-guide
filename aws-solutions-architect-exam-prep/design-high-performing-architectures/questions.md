@@ -645,3 +645,5 @@ A database administrator analyzes the logs in Amazon CloudWatch Logs and discove
 ### 🔗 Reference:
 - [Amazon EBS Volume Types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)
 - [gp3 Performance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp3-performance)
+- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102161-exam-aws-certified-solutions-architect-associate-saa-c03/)
+</details>
