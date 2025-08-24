@@ -640,3 +640,9 @@ A database administrator analyzes the logs in Amazon CloudWatch Logs and discove
 - **C:** io2 is optimized for sustained IOPS and durability but is more expensive. It’s not necessary here unless the gp3 volume’s maximum IOPS limit is insufficient after scaling.
 - **D:** Splitting into two volumes doesn’t improve RDS performance because RDS manages storage as a single volume; you cannot stripe them for performance gains.
 
+---
+
+### 🔗 Reference:
+- [Amazon EBS Volume Types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)
+- [gp3 Performance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp3-performance)
+- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/
