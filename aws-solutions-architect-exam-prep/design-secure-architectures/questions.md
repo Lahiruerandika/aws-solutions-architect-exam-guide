@@ -844,5 +844,5 @@ An IAM user made several configuration changes to AWS resources in their company
 
 ### 🔗 Reference:
 - [AWS CloudTrail Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
-
+- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102162-exam-aws-certified-solutions-architect-associate-saa-c03/)
 </details>
