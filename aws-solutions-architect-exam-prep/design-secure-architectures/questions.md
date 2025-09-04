@@ -841,3 +841,8 @@ An IAM user made several configuration changes to AWS resources in their company
 - **D. AWS Config** → Records **resource configuration history and compliance state**, but does **not show who made the change**.  
 
 ---
+
+### 🔗 Reference:
+- [AWS CloudTrail Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+
+</details>
