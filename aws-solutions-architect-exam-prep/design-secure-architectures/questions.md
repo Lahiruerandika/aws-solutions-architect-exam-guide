@@ -821,3 +821,10 @@ An IAM user made several configuration changes to AWS resources in their company
 
 ---
 
+<details>
+<summary><strong>✅ Check Answer</strong></summary>
+
+---
+
+### ✅ Correct Answer:  
+**C. AWS CloudTrail**
