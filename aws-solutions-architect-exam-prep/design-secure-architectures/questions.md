@@ -828,3 +828,16 @@ An IAM user made several configuration changes to AWS resources in their company
 
 ### ✅ Correct Answer:  
 **C. AWS CloudTrail**
+
+---
+
+### 📘 Explanation:
+
+- **AWS CloudTrail** provides a detailed **event history of all API calls and changes** made to AWS resources, including **who (IAM user or role)** performed the action, the **time**, the **source IP**, and more. This is exactly what’s needed to trace user activity.  
+
+**Why other options are incorrect:**
+- **A. Amazon GuardDuty** → Detects security threats and suspicious activity, but does **not track API calls or changes** made by specific IAM users.  
+- **B. Amazon Inspector** → Focuses on **vulnerability assessments** and compliance, not on tracking user activity or changes.  
+- **D. AWS Config** → Records **resource configuration history and compliance state**, but does **not show who made the change**.  
+
+---
