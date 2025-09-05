@@ -864,3 +864,13 @@ The company wants to protect the solution against DDoS attacks.
 **D.** Create an AWS WAF web ACL that includes a rate-based rule. Associate the web ACL with the EC2 instances.  
 
 ---
+
+<details>
+<summary><strong>✅ Check Answer</strong></summary>
+
+---
+
+### ✅ Correct Answer:  
+**A. Subscribe to AWS Shield Advanced. Add the accelerator as a resource to protect.**
+
+---
