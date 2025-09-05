@@ -847,3 +847,20 @@ An IAM user made several configuration changes to AWS resources in their company
 - [AWS CloudTrail Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
 - [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102162-exam-aws-certified-solutions-architect-associate-saa-c03/)
 </details>
+
+## Question #: 19 
+A company has implemented a self-managed DNS service on AWS. The solution consists of the following:
+
+- Amazon EC2 instances in different AWS Regions  
+- Endpoints of a standard accelerator in AWS Global Accelerator  
+
+The company wants to protect the solution against DDoS attacks.  
+
+**What should a solutions architect do to meet this requirement?**
+
+**A.** Subscribe to AWS Shield Advanced. Add the accelerator as a resource to protect.  
+**B.** Subscribe to AWS Shield Advanced. Add the EC2 instances as resources to protect.  
+**C.** Create an AWS WAF web ACL that includes a rate-based rule. Associate the web ACL with the accelerator.  
+**D.** Create an AWS WAF web ACL that includes a rate-based rule. Associate the web ACL with the EC2 instances.  
+
+---
