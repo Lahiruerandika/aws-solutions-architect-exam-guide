@@ -891,5 +891,6 @@ The company wants to protect the solution against DDoS attacks.
 ### 🔗 Reference:
 - [AWS Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)  
 - [Global Accelerator and Shield Advanced](https://docs.aws.amazon.com/global-accelerator/latest/dg/ddos-protection.html)  
+- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102164-exam-aws-certified-solutions-architect-associate-saa-c03/)
 
 </details>
