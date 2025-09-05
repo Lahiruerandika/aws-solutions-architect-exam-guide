@@ -807,6 +807,7 @@ The application must be secure and accessible for global customers that have dyn
 - [Amazon RDS Security Best Pract]()
 - [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102160-exam-aws-certified-solutions-architect-associate-saa-c03/)
 
+</details>
 
 ## Question #: 18
  
