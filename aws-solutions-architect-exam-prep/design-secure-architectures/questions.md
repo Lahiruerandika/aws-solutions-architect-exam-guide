@@ -874,3 +874,22 @@ The company wants to protect the solution against DDoS attacks.
 **A. Subscribe to AWS Shield Advanced. Add the accelerator as a resource to protect.**
 
 ---
+
+### 📘 Explanation:
+
+- **AWS Shield Advanced** provides **DDoS protection** for resources like **Global Accelerator**, Amazon CloudFront, Elastic IPs, and Route 53.  
+- Since the DNS service is exposed globally via **AWS Global Accelerator**, the **accelerator endpoints** are the resources that must be protected.  
+- Adding the **accelerator** to Shield Advanced ensures that malicious DDoS traffic is mitigated before it reaches the EC2 instances.  
+
+**Why other options are incorrect:**
+- **B.** EC2 instances cannot be directly protected by Shield Advanced — only their **Elastic IPs** could, but in this case traffic flows through Global Accelerator.  
+- **C.** WAF is for **layer 7 (HTTP/S) traffic filtering**. It does not mitigate DNS-based or UDP/TCP DDoS attacks.  
+- **D.** Same as above — associating WAF with EC2 makes no sense here since WAF only integrates with ALB, API Gateway, AppSync, CloudFront, and Global Accelerator (not raw EC2).  
+
+---
+
+### 🔗 Reference:
+- [AWS Shield Advanced](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)  
+- [Global Accelerator and Shield Advanced](https://docs.aws.amazon.com/global-accelerator/latest/dg/ddos-protection.html)  
+
+</details>
