@@ -382,25 +382,3 @@ A solutions architect needs to minimize the amount of operational effort that is
 ---
 
 ### 📘 Explanation:
-
-- **Lambda** is not a good fit here because:
-  - Max payload size is **10 GB objects**, which exceeds Lambda’s limits.
-  - Lambda max timeout is **15 minutes**, but the job can run for up to **1 hour**.  
-- **Amazon ECS with Fargate**:
-  - Fully managed serverless compute for containers.
-  - Removes the need to manage servers or scaling groups.
-  - You only specify **CPU and memory requirements** (which are predictable here).
-  - EventBridge easily integrates with ECS tasks for scheduled execution.
-  - Provides the **least operational overhead** since no EC2 maintenance is required.
-- **ECS with EC2 launch type** (Option D) requires managing the EC2 instances, scaling, and patching → more operational effort.  
-- **API Gateway + Lambda** (Option B) introduces unnecessary complexity and still fails Lambda’s limits.  
-- **Option A** fails for the same Lambda reasons as above.  
-
----
-
-### 🔗 Reference:
-- [ECS on AWS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/what-is-fargate.html)  
-- [EventBridge Scheduled Tasks for ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduled_tasks.html)  
-- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102165-exam-aws-certified-solutions-architect-associate-saa-c03/)
-
-</details>
