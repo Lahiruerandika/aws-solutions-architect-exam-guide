@@ -397,11 +397,3 @@ A solutions architect needs to minimize the amount of operational effort that is
 - **Option A** fails for the same Lambda reasons as above.  
 
 ---
-
-### 🔗 Reference:
-- [ECS on AWS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/what-is-fargate.html)  
-- [EventBridge Scheduled Tasks for ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduled_tasks.html)  
-- [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102165-exam-aws-certified-solutions-architect-associate-saa-c03/)
-
-
-</details>
