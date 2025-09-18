@@ -397,3 +397,6 @@ A solutions architect needs to minimize the amount of operational effort that is
 - **Option A** fails for the same Lambda reasons as above.  
 
 ---
+
+### 🔗 Reference:
+- [ECS on AWS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/what-is-fargate.html)  
