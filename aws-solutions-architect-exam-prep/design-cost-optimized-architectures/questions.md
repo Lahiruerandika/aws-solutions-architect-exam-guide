@@ -403,4 +403,4 @@ A solutions architect needs to minimize the amount of operational effort that is
 - [EventBridge Scheduled Tasks for ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduled_tasks.html)  
 - [ExamTopics Discussion](https://www.examtopics.com/discussions/amazon/view/102165-exam-aws-certified-solutions-architect-associate-saa-c03/)
 
-</details>
+</deta
